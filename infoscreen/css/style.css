@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/cover-phone-nti.jpeg");
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+#master-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90vw;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+#child-container1 {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#child-container2 {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#child-container3 {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#child-container1>div:not(#img-item) {
+    height: 70vh;
+    width: 20vw;
+    background-color: white;
+    border-bottom: 10px solid rgb(156, 2, 156);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#child-container2>div {
+    height: 30vh;
+    width: 20vw;
+    background-color: white;
+    border-bottom: 10px solid rgb(156, 2, 156);
+    border-radius: 3px;
+}
+
+#events-item {
+    background-color: white;
+    height: 30vh;
+    width: 40vw;
+    border-bottom: 10px solid rgb(156, 2, 156);
+    border-radius: 3px;
+}
+
+#mentor-item {
+    background-color: white;
+    height: 62.6vh;
+    width: 40vw;
+    border-bottom: 10px solid rgb(156, 2, 156);
+    border-radius: 3px;
+    text-align: justify;
+}
+
+#img-item {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: purple;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+}
+
+.content2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.news-img>img {
+    width: 20vw;
+    height: 30vh;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+td {
+    padding: 2px;
+    letter-spacing: 2px;
+}
